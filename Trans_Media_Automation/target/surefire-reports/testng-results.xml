@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-06T17:59:29 IST" name="Surefire suite" finished-at="2025-07-06T17:59:36 IST" duration-ms="7394">
+  <suite started-at="2025-07-06T20:45:17 IST" name="Surefire suite" finished-at="2025-07-06T20:45:25 IST" duration-ms="8709">
     <groups>
     </groups>
-    <test started-at="2025-07-06T17:59:29 IST" name="Surefire test" finished-at="2025-07-06T17:59:36 IST" duration-ms="7394">
+    <test started-at="2025-07-06T20:45:17 IST" name="Surefire test" finished-at="2025-07-06T20:45:25 IST" duration-ms="8709">
       <class name="WebAutomation.BoardTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:WebAutomation.BoardTest@4b0b0854]" started-at="2025-07-06T17:59:29 IST" name="setup" finished-at="2025-07-06T17:59:34 IST" duration-ms="4847" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WebAutomation.BoardTest@4b0b0854]" started-at="2025-07-06T20:45:17 IST" name="setup" finished-at="2025-07-06T20:45:23 IST" duration-ms="5807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createBoardAndAddLists()[pri:1, instance:WebAutomation.BoardTest@4b0b0854]" started-at="2025-07-06T17:59:34 IST" name="createBoardAndAddLists" finished-at="2025-07-06T17:59:35 IST" duration-ms="1695" status="PASS">
+        <test-method signature="createBoardAndAddLists()[pri:1, instance:WebAutomation.BoardTest@4b0b0854]" started-at="2025-07-06T20:45:23 IST" name="createBoardAndAddLists" finished-at="2025-07-06T20:45:25 IST" duration-ms="1911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBoardAndAddLists -->
-        <test-method signature="deleteListAndValidate()[pri:2, instance:WebAutomation.BoardTest@4b0b0854]" started-at="2025-07-06T17:59:35 IST" name="deleteListAndValidate" finished-at="2025-07-06T17:59:36 IST" duration-ms="237" status="PASS">
+        <test-method signature="deleteListAndValidate()[pri:2, instance:WebAutomation.BoardTest@4b0b0854]" started-at="2025-07-06T20:45:25 IST" name="deleteListAndValidate" finished-at="2025-07-06T20:45:25 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteListAndValidate -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.BoardTest@4b0b0854]" started-at="2025-07-06T17:59:36 IST" name="tearDown" finished-at="2025-07-06T17:59:36 IST" duration-ms="544" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.BoardTest@4b0b0854]" started-at="2025-07-06T20:45:25 IST" name="tearDown" finished-at="2025-07-06T20:45:25 IST" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,36 +1,3 @@
-//package WebAutomation;
-//
-//import io.github.bonigarcia.wdm.WebDriverManager;
-//
-//import java.time.Duration;
-//import java.util.List;
-//
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.support.ui.WebDriverWait;
-//public class Standaloan {
-//
-//	public static void main(String[] args) {
-//		WebDriverManager.chromedriver().setup();
-//		WebDriver driver= new ChromeDriver();
-//		driver.get("https://rahulshettyacademy.com/client");
-//		driver.manage().window().maximize();
-//		driver.findElement(By.id("userEmail")).sendKeys("practice788@gmail.com");
-//		driver.findElement(By.id("userPassword")).sendKeys("ABCd@12345");
-//		driver.findElement(By.id("login")).click();
-//		List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(80));
-//		WebElement prod = products.stream().filter(product-> product.findElement(By.cssSelector("b")).getText().equals("ZARA COAT 3")).findFirst().orElse(null);
-//		prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
-//		
-//
-//	}
-//
-//}
-
-
 package WebAutomation;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -46,8 +13,7 @@ import java.util.List;
 
 public class Standalone {
     public static void main(String[] args) {
-    	//String productName="ADIDAS ORIGINAL";
-    	
+      	
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("http://localhost:3000/");
@@ -55,7 +21,6 @@ public class Standalone {
         WebDriverWait waits = new WebDriverWait(driver, java.time.Duration.ofSeconds(50));
         waits.until(ExpectedConditions.elementToBeClickable(By.xpath("//h1[normalize-space()='Create new board']"))).click();
         waits.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Add board title']"))).sendKeys("Test1");
-        //waits.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Create board']"))).click();
         
         int attempts = 0;
         while (attempts < 3) {
@@ -69,10 +34,6 @@ public class Standalone {
             }
         }
 
-       // waits.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[normalize-space()='Create board']"))).click();
-       
-        
-        // Wait for "Add list" button (update this selector if incorrect)
         List<String> listTitles = Arrays.asList("List1", "List2");
         for (String title : listTitles) {
             waits.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[contains(@class,'w-list')]"))).click(); 
@@ -88,9 +49,6 @@ public class Standalone {
 
 
      driver.quit();
-        
-       
-    
 
     }
     

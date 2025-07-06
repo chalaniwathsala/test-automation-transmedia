@@ -36,6 +36,10 @@ Execute the TestNG suite via Maven:
 
 mvn clean test
 
+Or
+
+Open the project using eclipse and Run as TestNG
+
 This will launch the browser and execute all TestNG tests in testng.xml.
 
 4. View the Test Report

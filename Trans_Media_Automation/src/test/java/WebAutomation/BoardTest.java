@@ -36,10 +36,6 @@ public class BoardTest {
     public void deleteListAndValidate() {
         boardPage.deleteFirstList();
 
-//       boolean listDeleted = boardPage.waitForListCountToBe(1);
-//       Assert.assertTrue(listDeleted, "Expected 1 list after deletion but found: " + boardPage.getListCount());
-//
-//        System.out.println("One list deleted successfully.");
     }
 
     @AfterClass
