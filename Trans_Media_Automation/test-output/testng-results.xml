@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-05T18:48:39 IST" name="Default suite" finished-at="2025-07-05T18:48:53 IST" duration-ms="13990">
+    <groups>
+    </groups>
+    <test started-at="2025-07-05T18:48:39 IST" name="Default test" finished-at="2025-07-05T18:48:53 IST" duration-ms="13990">
+      <class name="WebAutomation.BoardTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WebAutomation.BoardTest@3b0090a4]" started-at="2025-07-05T18:48:39 IST" name="setup" finished-at="2025-07-05T18:48:50 IST" duration-ms="10883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBoardAndAddLists()[pri:1, instance:WebAutomation.BoardTest@3b0090a4]" started-at="2025-07-05T18:48:50 IST" name="createBoardAndAddLists" finished-at="2025-07-05T18:48:53 IST" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoardAndAddLists -->
+        <test-method signature="deleteListAndValidate()[pri:2, instance:WebAutomation.BoardTest@3b0090a4]" started-at="2025-07-05T18:48:53 IST" name="deleteListAndValidate" finished-at="2025-07-05T18:48:53 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteListAndValidate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebAutomation.BoardTest@3b0090a4]" started-at="2025-07-05T18:48:53 IST" name="tearDown" finished-at="2025-07-05T18:48:53 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebAutomation.BoardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

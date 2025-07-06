@@ -1,0 +1,7 @@
+WebAutomation\DriverFactory.class
+WebAutomation\Standalone.class
+WebAutomation\reporting\ExtentTestListener.class
+WebAutomation\reporting\ExtentManager.class
+WebAutomation\TestListener.class
+WebAutomation\BoardTest.class
+WebAutomation\TestConfig.class

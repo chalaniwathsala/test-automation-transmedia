@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+     <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+        <listener class-name="WebAutomation.reporting.ExtentTestListener"/> -->
+    </listeners>
+
+    <test name="Standalone">
+        <classes>
+            <class name="WebAutomation.Standalone"/>
+        </classes>
+    </test>
+</suite>
